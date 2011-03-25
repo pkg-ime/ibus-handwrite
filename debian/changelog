@@ -1,0 +1,5 @@
+ibus-handwrite (2.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #567903)
+
+ -- Asias He <asias.hejun@gmail.com>  Fri, 25 Mar 2011 23:02:46 +0800

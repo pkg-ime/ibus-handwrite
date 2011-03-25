@@ -1,0 +1,20 @@
+Source: ibus-handwrite
+Section: utils
+Priority: optional
+Maintainer: Asias He <asias.hejun@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, pkg-config, libibus-dev, libgtk2.0-dev , libglib2.0-dev , libzinnia-dev
+Standards-Version: 3.9.1
+Homepage: http://code.google.com/p/ibus-handwrite
+Vcs-Git: git://git.debian.org/pkg-ime/ibus-handwrite.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/ibus-handwrite.git
+
+Package: ibus-handwrite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: hand write recognition/input using ibus IM engine
+ IBus is an Intelligent Input Bus. It is a new input framework for Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ 
+
