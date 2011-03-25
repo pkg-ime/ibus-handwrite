@@ -1,0 +1,27 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<!-- filename: handwrite-zh.xml -->
+<component>
+	<name>org.freedesktop.IBus.handwrite-zh_CN</name>
+	<description>HandWrite Component</description>
+	<exec>${libexecdir}/ibus-engine-handwrite --ibus --lang=zh_CN</exec>
+	<version>@VERSION@</version>
+	<author>Microcai &lt;microcai AT fedoraproject DOT org &gt;</author>
+	<license>GPL</license>
+	<homepage>http://code.google.com/p/ibus-handwrite</homepage>
+	<textdomain>ibus-handwrite</textdomain>
+
+	<engines>
+		<engine>
+			<name>handwrite-zh_CN</name>
+			<language>zh_CN</language>
+			<license>GPL</license>
+			<author>Microcai &lt;microcai AT fedoraproject DOT org &gt;</author>
+			<icon>${pkgdatadir}/icons/ibus-handwrite.svg</icon>
+			<layout>us</layout>
+			<longname>handwrite</longname>
+			<description>Handwrite手写输入系统</description>
+			<rank>0</rank>
+		</engine>
+	</engines>
+
+</component>
