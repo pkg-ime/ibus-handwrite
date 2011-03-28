@@ -1,9 +1,20 @@
 Source: ibus-handwrite
 Section: utils
 Priority: optional
-Maintainer: Asias He <asias.hejun@gmail.com>
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders:
+ Asias He <asias.hejun@gmail.com>,
+ LI Daobing <lidaobing@debian.org>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 7.0.50~), autotools-dev, pkg-config, libibus-dev, libgtk2.0-dev , libglib2.0-dev , libzinnia-dev
+Build-Depends:
+ debhelper (>= 7.0.50~),
+ autotools-dev,
+ pkg-config,
+ libibus-dev,
+ libgtk2.0-dev,
+ libglib2.0-dev,
+ libzinnia-dev,
+ libgtkglext1-dev
 Standards-Version: 3.9.1
 Homepage: http://code.google.com/p/ibus-handwrite
 Vcs-Git: git://git.debian.org/pkg-ime/ibus-handwrite.git

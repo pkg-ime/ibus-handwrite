@@ -1,5 +1,6 @@
 ibus-handwrite (2.1.4-1) unstable; urgency=low
 
+  [ Asias He ]
   * Initial release (Closes: #567903)
 
- -- Asias He <asias.hejun@gmail.com>  Fri, 25 Mar 2011 23:02:46 +0800
+ -- LI Daobing <lidaobing@debian.org>  Mon, 28 Mar 2011 21:56:54 +0800
